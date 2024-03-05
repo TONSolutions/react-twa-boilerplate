@@ -2,6 +2,10 @@
 
 ## Cute little React TWA boilerpate with [Telemetree analytics](https://docs.ton.solutions/docs/getting-started) pre-installed.
 
+![Static Badge](https://img.shields.io/badge/build-passing-brightgreen?style=flat) ![GitHub top language](https://img.shields.io/github/languages/top/tonsolutions/react-twa-boilerplate) ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/tonsolutions/react-twa-boilerplate)
+
+
+
 No backend integration, mocked interactions.
 
 As app will not render several elements and components that are dependant on Telegram specific functions and user settings passed in runtime, native components (eg. `MainButton`) are replaced or backed by static UI but kept in the code for reference.
