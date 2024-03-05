@@ -1,6 +1,6 @@
-## Cute little React TWA boilerpate with [Telemetree analytics](https://docs.ton.solutions/docs/getting-started) pre-installed.
-
 ![](https://tc-images-api.s3.eu-central-1.amazonaws.com/gif_cropped.gif)
+
+## Cute little React TWA boilerpate with [Telemetree analytics](https://docs.ton.solutions/docs/getting-started) pre-installed.
 
 No backend integration, mocked interactions.
 
