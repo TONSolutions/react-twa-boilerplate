@@ -18,8 +18,11 @@ npm run dev
 ```
 
 **Quick routes to bypass validation:**
+
 `/signup`
+
 `/success`
+
 `/error`
 
 ### 5 steps to integrate (as in the boilerplate):
