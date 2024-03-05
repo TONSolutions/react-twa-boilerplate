@@ -1,5 +1,7 @@
 ## Cute little React TWA boilerpate with [Telemetree analytics](https://docs.ton.solutions/docs/getting-started) pre-installed.
 
+![](https://tc-images-api.s3.eu-central-1.amazonaws.com/gif_cropped.gif)
+
 No backend integration, mocked interactions.
 
 As app will not render several elements and components that are dependant on Telegram specific functions and user settings passed in runtime, native components (eg. `MainButton`) are replaced or backed by static UI but kept in the code for reference.
