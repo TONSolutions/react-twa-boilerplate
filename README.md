@@ -31,7 +31,7 @@ Install the package: `npm install @tonsolutions/telemetree-react --save` or `yar
 
 import the lib and wrap your app with the provider ([How to get your keys](https://docs.ton.solutions/docs/community-support)):
 
-```
+```js
 import { TwaAnalyticsProvider } from '@tonsolutions/telemetree-react'
 
 <TwaAnalyticsProvider
@@ -51,7 +51,8 @@ Initialize the event builder: `const eventBuilder = useTWAEvent();`
 
 And track an event:
 
-```const handleButtonClick = () => {
+```js
+const handleButtonClick = () => {
   eventBuilder.track('Button Clicked');
   // ... rest of your click handling logic
 };
@@ -65,8 +66,6 @@ Full integration documentation incl data enrichment and wallet events is availab
 
 Kudos to [KonstaUI](https://konstaui.com/) for dynamic iOS/Android context switching.
 
-Made with passion by [TON Solutions](https://ton.solutions/).
+Built with passion by [TON Solutions](https://ton.solutions/) in New York City, USA 🇺🇸
 
-```
 
-```
