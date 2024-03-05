@@ -1,0 +1,38 @@
+body {
+  background: var(--tg-theme-secondary-bg-color) !important;
+  color: var(--tg-theme-text-color) !important;
+}
+
+.center_hack {
+  justify-content: center !important;
+}
+
+.avatar_by_james_cameron {
+  width: 6.875rem;
+  height: 6.875rem;
+  border-radius: 1.875rem;
+  /* background: var(--tg-theme-bg-color); */
+}
+
+.logo {
+  padding-top: 1.4rem;
+}
+
+/* Telegram dependant */
+/* .logo-fill {
+  fill: var(--tg-theme-button-color) !important;
+} */
+
+.logo-fill {
+  fill: #000000 !important;
+}
+
+.title_hack {
+  color: var(--tg-theme-hint_color, #8e8e93);
+  font-size: 0.8125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.125rem; /* 138.462% */
+  letter-spacing: -0.00488rem;
+  text-transform: uppercase;
+}
