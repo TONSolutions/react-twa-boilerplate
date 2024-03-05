@@ -11,7 +11,7 @@ Live TWA: [@ton_solutions_waitlist_bot](https://t.me/ton_solutions_waitlist_bot/
 ```
 
 git clone https://github.com/TONSolutions/react-twa-boilerplate.git
-cd internal_diagrams
+cd react-twa-boilerplate
 npm i
 npm run dev
 
