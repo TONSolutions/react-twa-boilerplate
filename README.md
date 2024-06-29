@@ -4,7 +4,9 @@
 
 ![Static Badge](https://img.shields.io/badge/build-passing-brightgreen?style=flat) ![GitHub top language](https://img.shields.io/github/languages/top/tonsolutions/react-twa-boilerplate) ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/tonsolutions/react-twa-boilerplate)
 
-
+### One click deploy on Vercel
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FTONSolutions%2Freact-twa-boilerplate&project-name=telemetree-twa-boilerplate&repository-name=telemetree-twa-boilerplate)
+---
 
 No backend integration, mocked interactions.
 
