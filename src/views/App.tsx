@@ -35,9 +35,9 @@ export default function WLApp() {
   return (
     // Wrap the App component with the TwaAnalyticsProvider. Replace these credentials with your own. You can get these variables via https://docs.ton.solutions/docs/community-support
     <TwaAnalyticsProvider
-      projectId="76fbd597-d614-4506-b468-2361b0d9e419"
-      apiKey="920f7a0c-e138-4f43-a9f8-dffb5d0543f0"
-      appName="Boilerplate"
+      projectId="8b53b3a3-9f20-4f09-8d6c-8c0872f439e5"
+      apiKey="f243ed55-d729-4dd2-96e4-47156ee5eb8a"
+      appName="CoolApp"
     >
       <App theme={theme}>
         <Router>
