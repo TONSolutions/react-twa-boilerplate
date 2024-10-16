@@ -1,6 +1,11 @@
+> [!IMPORTANT]  
+> This branch is using [twa-dev/sdk](https://www.npmjs.com/package/@twa-dev/sdk) instead of Telegram JS script. This is particularly useful for NextJS apps.
+
+---
+
 ![](https://tc-images-api.s3.eu-central-1.amazonaws.com/gif_cropped.gif)
 
-## Cute little React TWA boilerpate with [Telemetree analytics](https://docs.ton.solutions/docs/getting-started) pre-installed.
+## Cute little React TWA boilerpate with [Telemetree analytics](https://docs.telemetree.io/quickstart) pre-installed.
 
 ![Static Badge](https://img.shields.io/badge/build-passing-brightgreen?style=flat) ![GitHub top language](https://img.shields.io/github/languages/top/tonsolutions/react-twa-boilerplate) ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/tonsolutions/react-twa-boilerplate)
 
@@ -39,7 +44,7 @@ npm run dev
 
 Install the package: `npm install @tonsolutions/telemetree-react --save` or `yarn add @tonsolutions/telemetree-react`
 
-import the lib and wrap your app with the provider ([How to get your keys](https://docs.ton.solutions/docs/community-support)):
+import the lib and wrap your app with the provider (you obtain these credentials on a [Dashboard](https://app.telemetree.io))):
 
 ```js
 import { TwaAnalyticsProvider } from '@tonsolutions/telemetree-react'
