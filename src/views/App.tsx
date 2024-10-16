@@ -6,16 +6,14 @@ import SuccessView from './Success'
 import { App } from 'konsta/react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import { isAndroid } from 'react-device-detect'
+import WebApp from '@twa-dev/sdk'
 
 // Import the TwaAnalyticsProvider from the telemetree-react package to enable analytics
 import { TwaAnalyticsProvider } from '@tonsolutions/telemetree-react'
 
 const requestWriteAccess = (retries = 3) => {
-  if (
-    window.Telegram.WebApp.initDataUnsafe.user?.allows_write_to_pm === false &&
-    retries > 0
-  ) {
-    window.Telegram.WebApp.requestWriteAccess((access) => {
+  if (WebApp.initDataUnsafe.user?.allows_write_to_pm === false && retries > 0) {
+    WebApp.requestWriteAccess((access) => {
       if (!access) {
         requestWriteAccess(retries - 1)
       }
@@ -25,19 +23,22 @@ const requestWriteAccess = (retries = 3) => {
 
 export default function WLApp() {
   React.useEffect(() => {
-    window.Telegram.WebApp.expand()
-    window.Telegram.WebApp.setHeaderColor('secondary_bg_color')
+    WebApp.ready()
+    WebApp.expand()
+    WebApp.setHeaderColor('secondary_bg_color')
     requestWriteAccess()
   }, [])
 
   const theme = isAndroid ? 'material' : 'ios'
 
+  console.log('Telegram Client', window?.Telegram?.WebApp)
+
   return (
     // Wrap the App component with the TwaAnalyticsProvider. Replace these credentials with your own. You can get these variables via https://docs.ton.solutions/docs/community-support
     <TwaAnalyticsProvider
-      projectId="76fbd597-d614-4506-b468-2361b0d9e419"
-      apiKey="920f7a0c-e138-4f43-a9f8-dffb5d0543f0"
-      appName="Boilerplate"
+      projectId="8b53b3a3-9f20-4f09-8d6c-8c0872f439e5"
+      apiKey="f243ed55-d729-4dd2-96e4-47156ee5eb8a"
+      appName="CoolApp"
     >
       <App theme={theme}>
         <Router>
