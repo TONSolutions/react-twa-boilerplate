@@ -44,7 +44,7 @@ npm run dev
 
 Install the package: `npm install @tonsolutions/telemetree-react --save` or `yarn add @tonsolutions/telemetree-react`
 
-import the lib and wrap your app with the provider (you obtain these credentials on a [Dashboard](https://app.telemetree.io))):
+import the lib and wrap your app with the provider (you obtain these credentials on a [Dashboard](https://app.telemetree.io)):
 
 ```js
 import { TwaAnalyticsProvider } from '@tonsolutions/telemetree-react'
